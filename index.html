@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="warningCont">
+            <p id="warning"></p>
+        </section>
+        <h1 id="display"></h1>
+        <div>
+            <section class="row">
+                <button class="button" id="clear">AC</button>
+                <button class="button borderless" disabled></button>
+                <button class="button borderless" disabled></button>
+                <button class="button borderless" disabled></button>
+                <button class="button" id="del">DEL</button>
+            </section>
+            <section class="row">
+                <button class="button" value="7" id="seven">7</button>
+                <button class="button" value="8" id="eight">8</button>
+                <button class="button" value="9" id="nine">9</button>
+                <button class="button" id="add">+</button>
+                <button class="button" id="sub">-</button>
+            </section>
+            <section class="row">
+                <button class="button" value="6" id="six">6</button>
+                <button class="button" value="5" id="five">5</button>
+                <button class="button" value="4" id="four">4</button>
+                <button class="button" id="times">x</button>
+                <button class="button" id="div">&#247</button>
+            </section>
+            <section class="row">
+                <button class="button" value="3" id="three">3</button>
+                <button class="button" value="2" id="two">2</button>
+                <button class="button" value="1" id="one">1</button>
+                <button class="button borderless" disabled></button>
+                <button class="button borderless" disabled></button>
+            </section>
+            <section class="row">
+                <button class="button borderless" disabled></button>
+                <button class="button" value="0" id="zero">0</button>
+                <button class="button borderless" disabled></button>
+                <button class="button borderless" disabled></button>
+                <button class="button" id="equal">=</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
